@@ -1,6 +1,6 @@
 # DSM Testing Repl
 
-This repl provides some tools to help debugging indexing issues: curl and a robots.txt tester. All tools here will use the shell, so you should always input the commands belou in the shell tab:
+This repl provides some tools to help debugging indexing issues (plus cURL). All tools here will use the shell, so you should always input the commands belou in the shell tab:
 
 ![alt text](img/shell.png "The shell tab")
 
