@@ -36,11 +36,18 @@ Type:
 If there is a noindex tag in the html file you should see something like this:
 
 ```
-noindex directive found:
-85:<meta name="googlebot" content="noindex, nofollow"><meta name="format-detection" content="telephone=no">
+'noindex' directive in <meta> tag:
+9: <meta name="robots" content="noindex">
 ```
 
 The number before the `<meta>` tag is the line in the HTML file. You can use it to help the user to find the problem.
+
+If there is a noindex directive in the HTTP header, you should see something like this:
+
+```
+'noindex' directive in HTTP header:
+11:x-robots-tag: noindex
+```
 
 If there is no `noindex` directive, you'll see:
 
@@ -48,24 +55,55 @@ If there is no `noindex` directive, you'll see:
 Page looks indexable
 ```
 
-## Find redirects using the `<meta>` tag
+## Find redirects
 
 Type:
 
-`./meta-redirect.sh [the URL you're testing]`
+`./redirect.sh [the URL you're testing]`
 
 If there are meta redirects you should see something like this:
 
 ```
-Meta redirect found:
-11: <meta http-equiv="refresh" content="0; URL=https://indexing-sandbox.elyksorab.repl.co/meta-chain2.html">
+Redirect found in <meta> tag
+9: <meta http-equiv="refresh" content="0; URL=https://indexing-sandbox.elyksorab.repl.co/redirect-loop-meta2.html">
 ```
 
 The number before the `<meta>` tag is the line in the HTML file. You can use it to help the user to find the problem.
 
-If there are no `<meta>` tags with the `http-equiv="refresh"` property, you'll see the following message:
+If there is a noindex directive in the HTTP header, you should see something like this:
+
+```
+Redirect found in HTTP header:
+4:HTTP/1.1 301 Moved Permanently
+```
+
+If the script doesn't find redirects you will see:
 
 `No meta redirects found`
+
+## Find `rel="canonical"` indications
+
+Type:
+
+`./canonical.sh [the URL you're testing]`
+
+If there is a `rel=canonical <link>` tag, you should see something like this:
+
+```
+Canonical in <link> tag:
+10:<link rel="canonical" href="https://indexing-sandbox.elyksorab.repl.co/" />
+```
+
+If there is a `rel=canonical` HTTP header, you should see something like this:
+
+```
+Canonical Link in HTTP header:
+8:link: <https://indexing-sandbox.elyksorab.repl.co/>; rel='canonical'
+```
+
+If the script doesn't find redirects you will see:
+
+`No canonical declarations found`
 
 ## Other useful cURL commands
 
