@@ -1,0 +1,14 @@
+# Target labels
+ abseilcpp
+# Source files and their labels
+/home/runner/DSMTester/robotstxt/c-build/libs/CMakeFiles/abseilcpp
+/home/runner/DSMTester/robotstxt/c-build/libs/CMakeFiles/abseilcpp.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/CMakeFiles/abseilcpp-complete.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-install.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-mkdir.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-download.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-update.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-patch.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-configure.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-build.rule
+/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-test.rule

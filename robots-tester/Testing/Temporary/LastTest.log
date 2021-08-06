@@ -1,0 +1,67 @@
+Start testing: Aug 06 15:17 UTC
+----------------------------------------------------------
+1/1 Testing: robots-test
+1/1 Test: robots-test
+Command: "/home/runner/DSMTester/robotstxt/c-build/robots-test"
+Directory: /home/runner/DSMTester/robotstxt/c-build
+"robots-test" start time: Aug 06 15:17 UTC
+Output:
+----------------------------------------------------------
+Running main() from /home/runner/DSMTester/robotstxt/c-build/libs/gtest-src/googletest/src/gtest_main.cc
+[==========] Running 20 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 20 tests from RobotsUnittest
+[ RUN      ] RobotsUnittest.GoogleOnly_SystemTest
+[       OK ] RobotsUnittest.GoogleOnly_SystemTest (0 ms)
+[ RUN      ] RobotsUnittest.ID_LineSyntax_Line
+[       OK ] RobotsUnittest.ID_LineSyntax_Line (0 ms)
+[ RUN      ] RobotsUnittest.ID_LineSyntax_Groups
+[       OK ] RobotsUnittest.ID_LineSyntax_Groups (0 ms)
+[ RUN      ] RobotsUnittest.ID_REPLineNamesCaseInsensitive
+[       OK ] RobotsUnittest.ID_REPLineNamesCaseInsensitive (0 ms)
+[ RUN      ] RobotsUnittest.ID_VerifyValidUserAgentsToObey
+[       OK ] RobotsUnittest.ID_VerifyValidUserAgentsToObey (0 ms)
+[ RUN      ] RobotsUnittest.ID_UserAgentValueCaseInsensitive
+[       OK ] RobotsUnittest.ID_UserAgentValueCaseInsensitive (0 ms)
+[ RUN      ] RobotsUnittest.GoogleOnly_AcceptUserAgentUpToFirstSpace
+[       OK ] RobotsUnittest.GoogleOnly_AcceptUserAgentUpToFirstSpace (0 ms)
+[ RUN      ] RobotsUnittest.ID_GlobalGroups_Secondary
+[       OK ] RobotsUnittest.ID_GlobalGroups_Secondary (26 ms)
+[ RUN      ] RobotsUnittest.ID_AllowDisallow_Value_CaseSensitive
+[       OK ] RobotsUnittest.ID_AllowDisallow_Value_CaseSensitive (0 ms)
+[ RUN      ] RobotsUnittest.ID_LongestMatch
+[       OK ] RobotsUnittest.ID_LongestMatch (0 ms)
+[ RUN      ] RobotsUnittest.ID_Encoding
+[       OK ] RobotsUnittest.ID_Encoding (0 ms)
+[ RUN      ] RobotsUnittest.ID_SpecialCharacters
+[       OK ] RobotsUnittest.ID_SpecialCharacters (0 ms)
+[ RUN      ] RobotsUnittest.GoogleOnly_IndexHTMLisDirectory
+[       OK ] RobotsUnittest.GoogleOnly_IndexHTMLisDirectory (0 ms)
+[ RUN      ] RobotsUnittest.GoogleOnly_LineTooLong
+[       OK ] RobotsUnittest.GoogleOnly_LineTooLong (146 ms)
+[ RUN      ] RobotsUnittest.GoogleOnly_DocumentationChecks
+[       OK ] RobotsUnittest.GoogleOnly_DocumentationChecks (0 ms)
+[ RUN      ] RobotsUnittest.ID_LinesNumbersAreCountedCorrectly
+[       OK ] RobotsUnittest.ID_LinesNumbersAreCountedCorrectly (0 ms)
+[ RUN      ] RobotsUnittest.ID_UTF8ByteOrderMarkIsSkipped
+[       OK ] RobotsUnittest.ID_UTF8ByteOrderMarkIsSkipped (0 ms)
+[ RUN      ] RobotsUnittest.ID_NonStandardLineExample_Sitemap
+[       OK ] RobotsUnittest.ID_NonStandardLineExample_Sitemap (0 ms)
+[ RUN      ] RobotsUnittest.TestGetPathParamsQuery
+[       OK ] RobotsUnittest.TestGetPathParamsQuery (0 ms)
+[ RUN      ] RobotsUnittest.TestMaybeEscapePattern
+[       OK ] RobotsUnittest.TestMaybeEscapePattern (0 ms)
+[----------] 20 tests from RobotsUnittest (176 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 1 test suite ran. (176 ms total)
+[  PASSED  ] 20 tests.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"robots-test" end time: Aug 06 15:17 UTC
+"robots-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 06 15:17 UTC

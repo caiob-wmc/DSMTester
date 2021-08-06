@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/CMakeFiles/abseilcpp"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/CMakeFiles/abseilcpp.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/CMakeFiles/abseilcpp-complete.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-install.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-mkdir.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-download.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-update.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-patch.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-configure.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-build.rule"
+		},
+		{
+			"file" : "/home/runner/DSMTester/robotstxt/c-build/libs/abseilcpp-prefix/src/abseilcpp-stamp/abseilcpp-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"abseilcpp"
+		],
+		"name" : "abseilcpp"
+	}
+}

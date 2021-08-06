@@ -1,3 +1,3 @@
 #!/bin/bash
 
-/home/runner/DSMTester/robots robots.txt Googlebot $1
+/home/runner/DSMTester/robots-tester/robots robots.txt Googlebot $1
